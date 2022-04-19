@@ -2,7 +2,6 @@
 
 body {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	font-family: 'Quicksand', sans-serif;
 	height: 100vh;
@@ -11,11 +10,12 @@ body {
 }
 
 img {
-	max-width: 600px;
+	max-width: 500px;
 	border-radius: 30px;
 }
 
-main {
+.gato {
+	width: 50%;
 	text-align: center;
 }
 
@@ -38,4 +38,11 @@ button:hover {
 	bottom: 0;
 	position: fixed;
 	text-align: center;
+}
+.cachorro {
+		text-align: center;
+}
+dog {
+	max-width: 500px;
+	border-radius: 30px;
 }
